@@ -1,0 +1,59 @@
+Question1
+When to use a for loop-
+*In a computer programming language ,for loop is used to have a precise and concise loop structure .
+*It is an entry control system ,with the help of a for loop repeated exicution of a statement is done .
+*They are used to reduce the size of the code 
+*For loop is used to check the given specific condition ,and the program is run until the desired condition is met.
+*With the use of for loop, the following actions can be performed at ones -Initialization,Evaluation ,Incrimentation.
+ 
+ input_list =[10,20,3,40,50]
+ print("input_list elements")
+ for elements in input_list :
+    print(element)
+    
+ When to use while loop-
+ *It is also used for repeated exicution of statement 
+ *In this loop number of iterrations can be infinite unless the given statement is reached or satisfied.
+ 
+i=1
+while i<10
+  print(i)
+  i=i+10
+  
+Question 2
+i=1
+sum=0
+wile(i<=10):
+   sum =sum+1
+   i=i+1
+   
+Question 3
+unit_consumed=int(input("enter unit of electricity consumed"):
+if unit consumed <=100:
+     a = unit_consumed*4.5
+elif unit_consumed <=200:
+     a = 100*4.5 + (unit_consumed -100)*6
+elif unit_consumed <=300:
+     a = 100*4.5 + 100*6 +(unit_consumed -200)*10
+else :
+     a = 100*4.5 +100*6 + 100*10 + (unit_consumed -300)*20
+     print("your electricity bill is ","rs",a)
+     
+question 4
+l2=[]
+i=1
+while i in range(1,101)
+     if 1/4 ==0 0r i/5==0:
+       l2.append(i**3)
+       i=i+1
+       print(l2)
+       
+       
+question 5
+def vowel_count(str=" I want to become a data scientist")
+      count=0
+      vowel = set("aeiouAEIOU")
+      for alphs in vowel :
+          count =count+1
+     print (count)
+     
